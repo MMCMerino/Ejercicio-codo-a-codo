@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;  /*aca le digo que es flexible */
+    flex-wrap:wrap; /*wrap*/  /*envoltura*/ 
+    /*background-color: rgb(245, 240, 240);*/
+    
+    flex-direction: row;
+    
+    
+  }
+
+ 
+
+  .flex-container > div {
+    color: #FBFF00;
+    background-color: #fd0000;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    font-size: 30px;
+    
+   
+  }
+
+   .flex-container  #flex-dos {
+    background-color: #000000;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    font-size: 30px;
+
+  
+  }  
